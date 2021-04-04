@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828859929658",
+    "project_id": "nilnet-education",
+    "storage_bucket": "nilnet-education.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828859929658:android:25fff27c11e57803c59103",
+        "android_client_info": {
+          "package_name": "in.nilnet.nilneteducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828859929658-a5pgle1qbkt70jnd5clob0622m7aojnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfCWLi21xhXCep3EihZjvK8UHxdmyNdDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828859929658-a5pgle1qbkt70jnd5clob0622m7aojnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

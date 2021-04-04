@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="in.nilnet.nilneteducation.LoginActivity"
+        android:label="LoginActivity"
+        tools:layout="@layout/login_fragment"
+        >
+        <action
+            android:id="@+id/action_loginActivity_to_signupActivity"
+            app:destination="@id/signupActivity" />
+
+        <action
+            android:id="@+id/action_loginActivity_to_mainActivity"
+            app:destination="@id/mainActivity" />
+
+    </activity>
+    <activity
+        android:id="@+id/signupActivity"
+        android:name="in.nilnet.nilneteducation.SignupActivity"
+        android:label="SignupActivity"
+        tools:layout="@layout/signup_fragment"
+        >
+
+        <action
+            android:id="@+id/action_SignupActivity_to_mainActivity"
+            app:destination="@id/mainActivity" />
+
+    </activity>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="in.nilnet.nilneteducation.MainActivity"
+        android:label="MainActivity"
+        tools:layout="@layout/main_fragment" >
+
+    </activity>
+    <fragment
+        android:id="@+id/navigation_coursesFragment"
+        android:name="in.nilnet.nilneteducation.fragments.CoursesFragment"
+        android:label="CoursesFragment"
+        >
+
+    </fragment>
+
+
+</navigation>
